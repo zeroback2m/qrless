@@ -28,4 +28,4 @@
 <br>
 
 ## 프로젝트 개발 계획
-![develop_plan](./img/plan.png)
+![develop_plan](./readme-img/plan.png)
