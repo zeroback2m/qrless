@@ -1,20 +1,21 @@
-import React from 'react';
-import { View, Text } from 'react-native';
-import { joinStyles } from './styles/JoinStyles';
+import React, { useState } from 'react';
+import Container from './components/Container';
+import Button from './components/Button';
+import Input from './components/Input';
 
 const Join = () => {
+    const [hello, setHello] = useState('hello');
     return (
-        <View style={joinStyles.container}>
-            <Text style={joinStyles.text}>
-                회원가입
-            </Text>
-            <Text style={[joinStyles.text, joinStyles.error]}>
-                회원가입
-            </Text>
-        </View>
+        <Container>
+            <Input onChange={e => setHello(e.nativeEvent.text)}/>
+            <Button onPress={sayHello}>눌러!</Button>
+        </Container>
     );
-};
 
+    function sayHello() {
+        console.log(hello);
+    }
+};
 
 
 export default Join;
