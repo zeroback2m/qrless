@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 import { Pressable, Text } from 'react-native';
 
 const ButtonContainer = styled.Pressable`
-    background-color: ${props => props.theme.purple};
+    background-color: ${props => props.theme.black};
     border-radius: 15px;
     padding: 15px 40px;
     margin: 10px 0px;
