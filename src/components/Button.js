@@ -6,7 +6,7 @@ const ButtonContainer = styled.Pressable`
     background-color: ${props => props.theme.black};
     border-radius: 15px;
     padding: 15px 40px;
-    margin: 10px 0px;
+    margin: 10px 10px;
     justify-content: center;
 `;
 
