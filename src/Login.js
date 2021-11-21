@@ -6,9 +6,8 @@ import Button from './components/Button';
 import { Input } from './components/Input';
 import { Header, Content } from './components/Layout';
 import { theme } from './theme';
-import { Component } from 'react';
 
-const Join = () => {
+const Login = ({navigation}) => {
     const [hello, setHello] = useState('hello');
     return (
         <ThemeProvider theme={theme}>
@@ -19,7 +18,7 @@ const Join = () => {
                     <Input placeholder="비밀번호" isPassword={true} onChange={e => setHello(e.nativeEvent.text)}/>
                     <View style = {styles.container}>
                         <Button isFilled={true} onPress={login}>로그인</Button>
-                        <Button isFilled={true} onPress={() => this.props.navigation.navigate('JOIN')}>회원가입</Button>
+                        <Button isFilled={true} onPress={() => navigation.navigate('JOIN')}>회원가입</Button>
                     </View>
                 </Content>
             </Container>
