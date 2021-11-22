@@ -331,3 +331,13 @@ Temporary Items
 !.vscode/*.code-snippets
 
 # End of https://www.toptal.com/developers/gitignore/api/reactnative,visualstudiocode
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+firebase.json

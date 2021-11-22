@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "767650061263",
+    "firebase_url": "https://zerobacktomonth-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "zerobacktomonth",
+    "storage_bucket": "zerobacktomonth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767650061263:android:72ef4982510d036d2b10ba",
+        "android_client_info": {
+          "package_name": "com.ZeroBack2Month.QRLess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767650061263-arhvm97hleloohd5nuukk5sr30apm1d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSofJh2bPudIzXjkSle6CIin2hx9U-OHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767650061263-arhvm97hleloohd5nuukk5sr30apm1d3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
